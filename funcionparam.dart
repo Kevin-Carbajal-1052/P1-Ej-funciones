@@ -2,8 +2,8 @@ double caclularArea(double base, double altura) {
   return base * altura;
 }
 
-double calcularAreaTriangulo(double base, double altura) {
-  return caclularArea(base, altura) / 2;
+void saludar(String nombre, int edad) {
+  print("Hola, $nombre. Tienes $edad años.");
 }
 
 void main() {
@@ -11,9 +11,8 @@ void main() {
   double base = 10;
   double altura = 20;
   double area = caclularArea(base, altura);  
-  double areaTriangulo = calcularAreaTriangulo(base, altura);
   print("Llamando a la funcion calcularArea");
   print('El area del rectangulo es: $area');
-  print("Llamando a la funcion calcularAreaTriangulo");
-  print('El area del triangulo es: $areaTriangulo');
-}
+  print("Llamando a la funcion saludar");
+  saludar("Kevin", 17);
+  }

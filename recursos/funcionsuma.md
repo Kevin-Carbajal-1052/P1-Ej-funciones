@@ -5,4 +5,4 @@
 * ![alt text](image.png)
 
 * Ejemplo de salida funcion con parametros
-* ![alt text](image-1.png)
+* ![alt text](image-2.png)
