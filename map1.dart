@@ -13,11 +13,15 @@ void main() {
     11: 'Noviembre',
     12: 'Diciembre',
   };
+
   print("meses del año: $meses");
+  
   int nMes=5;
   String nombreMes = meses[nMes]!;
   print("El mes con numero ${nMes} es ${nombreMes}");
+
   print("Lista de meses:");
+  
   meses.forEach((numero, mes){
     print("$mes");
   });
